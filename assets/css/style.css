@@ -142,6 +142,10 @@ h1 {
     padding: 0.1rem 1.5rem;
 }
 
+.attribution {
+    display: none;
+}
+
 /* JS CLASSES */
 .hidden {
     display: none;
@@ -159,5 +163,18 @@ h1 {
     }
     .rating__label {
         font-size: 1.6rem;
+    }
+    .attribution {
+        color: var(--white);
+        display: block;
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        text-align: center;
+        width: 100%;
+        padding: 1.5rem 0;
+    }
+    .attribution a {
+        color: var(--orange);
     }
 }
