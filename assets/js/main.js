@@ -15,5 +15,3 @@ function test(e) {
         e.preventDefault();
     }
 }
-
-// MODIFY FONT SIZES FOR MOBILE AND DO MEDIA QUERIES AND REFACTOR
