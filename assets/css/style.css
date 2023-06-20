@@ -118,6 +118,7 @@ h1 {
     text-transform: uppercase;
 }
 .rating__submit:hover {
+    cursor: pointer;
     background-color: var(--white);
     color: var(--orange);
 }
